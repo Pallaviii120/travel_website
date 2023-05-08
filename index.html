@@ -27,11 +27,11 @@ error_reporting(0);
 
    <section class="header">
 
-      <a href="home.php" class="logo"><i class="fas fa-plane" aria-hidden="true"></i><strong>World</strong>
+      <a href="index.html" class="logo"><i class="fas fa-plane" aria-hidden="true"></i><strong>World</strong>
          <span style="color:#8e44ad ;"><strong>Tour</strong></span></a>
 
       <nav class="navbar">
-         <a class="butn active" href="home.php">home</a>
+         <a class="butn active" href="index.html">home</a>
          <a href="about.php">about</a>
          <a href="package.php">package</a>
          <a href="book.php">book</a>
@@ -219,7 +219,7 @@ error_reporting(0);
 
          <div class="box">
             <h3>quick links</h3>
-            <a href="home.php"> <i class="fas fa-angle-right"></i> home</a>
+            <a href="index.html"> <i class="fas fa-angle-right"></i> home</a>
             <a href="about.php"> <i class="fas fa-angle-right"></i> about</a>
             <a href="package.php"> <i class="fas fa-angle-right"></i> package</a>
             <a href="book.php"> <i class="fas fa-angle-right"></i> book</a>

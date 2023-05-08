@@ -6,7 +6,7 @@ session_start();
 error_reporting(0);
 
 if (isset($_SESSION['fname'])) {
-    header('Location: home.php');
+    header('Location: index.html');
 }
 
 if (isset($_GET['submit'])) {
@@ -18,7 +18,7 @@ if (isset($_GET['submit'])) {
     if ($result->num_rows > 0) {
         $row = mysqli_fetch_assoc($result);
         $_SESSION['fname'] = $row['fname'];
-        header("Location: home.php");
+        header("Location: index.html");
     } else {
         echo "<script>alert('Woops! Email or Password is Wrong.')</script>";
     }

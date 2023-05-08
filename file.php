@@ -25,7 +25,7 @@
             color: #8e44ad;
         }
     </style>
-    <a href="home.php" class="fa fa-arrow-circle-left">Back To Home</a>
+    <a href="index.html" class="fa fa-arrow-circle-left">Back To Home</a>
 </body>
 
 </html>
